@@ -170,8 +170,6 @@ def handle_shell():
             sock.close()
         exit(1)
 
-
-    #cmd_str = '' #TODO: likely unneeded, can just have in loop var
     while 1:
         try:
             cmd_str = raw_input("# ")
